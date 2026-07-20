@@ -1,1 +1,14 @@
-IyBFeGFtZW4gQ2l2aXF1ZSDigJQgUmVsZWFzZXMKCkNlIGTDqXDDtHQgaMOpYmVyZ2UgdW5pcXVlbWVudCBsZXMgYXBrIEFuZHJvaWQgc2lnbsOpcyBkZSBsJ2FwcGxpY2F0aW9uIFtFeGFtZW4gQ2l2aXF1ZV0oaHR0cHM6Ly9naXRodWIuY29tL3ZpYy1vZGVzL2V4YW1lbi1jaXZpcXVlKS4KCkxlIGNvZGUgc291cmNlIGRlIGwnYXBwbGljYXRpb24gc2UgdHJvdXZlIGRhbnMgbGUgZMOpcMO0dCBwcml2w6kgY2ktZGVzc3VzLgoKIyMgVMOpbMOpY2hhcmdlciBsJ2FwcGxpY2F0aW9uCgpWb2lyIGxhIFtwYWdlIGRlcyByZWxlYXNlc10oLi4vLi4vcmVsZWFzZXMpIHBvdXIgdMOpbMOpY2hhcmdlciBsYSBkZXJuacOocmUgdmVyc2lvbiBkZSBsJ2FwaywgcHVpcyBpbnN0YWxsZXotbGUgc3VyIHZvdHJlIGFwcGFyZWlsIEFuZHJvaWQgKGF1dG9yaXNleiBsJ2luc3RhbGxhdGlvbiBkZXB1aXMgZGVzIHNvdXJjZXMgaW5jb25udWVzKS4K
+# Examen Civique — Releases
+
+Ce dépôt héberge uniquement les apk Android signés de l'application [Examen Civique](https://github.com/vic-odes/examen-civique).
+
+Le code source de l'application se trouve dans le dépôt privé ci-dessus.
+
+## Télécharger l'application
+
+Voir la [page des releases](../../releases) pour télécharger la dernière version de l'apk, puis installez-le sur votre appareil Android (autorisez l'installation depuis des sources inconnues).
+
+## Documents légaux
+
+- [Politique de confidentialité](https://vic-odes.github.io/examen-civique-releases/privacy.html)
+- [Conditions Générales d'Utilisation](https://vic-odes.github.io/examen-civique-releases/terms.html)
