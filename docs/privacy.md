@@ -4,7 +4,7 @@ title: Politique de confidentialité — Examen Civique
 
 # Politique de confidentialité
 
-**Dernière mise à jour : 20 juillet 2026**
+**Dernière mise à jour : 5 août 2026**
 
 ## 1. Qui sommes-nous
 
@@ -18,14 +18,15 @@ Contact pour toute question relative à vos données personnelles : **vngounou26
 
 L'utilisation de l'application nécessite la création d'un compte. Nous collectons :
 
-- **Données de compte** : adresse email, nom affiché, et mot de passe — jamais stocké en clair, uniquement sous forme de hachage sécurisé (PBKDF2-SHA256, 210 000 itérations). Si vous choisissez de vous connecter avec Google, nous conservons à la place l'identifiant Google associé à votre compte, sans stocker de mot de passe.
+- **Données de compte** : adresse email, nom affiché, et mot de passe — jamais stocké en clair, uniquement sous forme de hachage sécurisé (PBKDF2-SHA256, 210 000 itérations). Si vous choisissez de vous connecter avec Google, nous conservons à la place l'identifiant Google associé à votre compte, sans stocker de mot de passe. Si vous confirmez votre adresse email, un code de vérification (haché, valable 15 minutes) est utilisé pour cette confirmation.
 - **Préférences d'affichage** : thème, taille de police, préférences sonores et haptiques.
 - **Données d'utilisation et de progression** : vos sessions d'examen, vos réponses, vos scores par thème, vos erreurs (pour la fonction de révision), vos questions favorites, et votre série de jours d'activité consécutifs.
+- **Données de notifications** (si vous les activez) : le jeton technique de notification propre à votre appareil et le type d'appareil (Android, iOS, Windows), votre préférence d'activation des notifications, ainsi que la date d'examen que vous avez éventuellement renseignée, utilisée pour vous envoyer un rappel avant cette date.
 - **Données techniques d'authentification** : un jeton de connexion (JWT) de courte durée et un jeton de rafraîchissement, stocké sous forme hachée, qui permettent de vous maintenir connecté en sécurité.
 
-Nous ne collectons **aucune donnée de localisation, de contacts ou de caméra** : l'application ne demande que les permissions Android strictement nécessaires à son fonctionnement (accès à l'état du réseau, vibration).
+Nous ne collectons **aucune donnée de localisation, de contacts ou de caméra** : l'application ne demande que les permissions Android strictement nécessaires à son fonctionnement (accès à l'état du réseau, vibration, et — si vous activez les notifications — l'autorisation d'envoi de notifications requise depuis Android 13).
 
-Nous n'intégrons **aucun outil tiers d'analyse d'audience, de publicité ou de suivi** (pas de Google Analytics, Firebase, AdMob ou équivalent).
+Nous n'intégrons **aucun outil tiers d'analyse d'audience, de publicité ou de suivi** (pas de Google Analytics, AdMob ou équivalent). Nous utilisons **Firebase Cloud Messaging (Google)** exclusivement comme service technique d'acheminement des notifications push, sans finalité publicitaire ni de suivi de votre activité.
 
 ## 3. Pourquoi nous utilisons ces données
 
@@ -42,7 +43,8 @@ Vos données ne sont **ni vendues, ni louées, ni partagées à des fins commerc
 Elles peuvent être traitées par :
 
 - **Microsoft Azure**, notre hébergeur (base de données, exécution de l'application, gestion des secrets via Azure Key Vault), en tant que sous-traitant.
-- **Google**, uniquement si vous choisissez de vous connecter via « Se connecter avec Google » : Google traite alors votre demande d'authentification conformément à sa propre politique de confidentialité.
+- **Google**, dans trois cas distincts : (1) si vous choisissez de vous connecter via « Se connecter avec Google », pour traiter votre authentification ; (2) via **Firebase Cloud Messaging**, pour l'acheminement technique des notifications push (jeton d'appareil et contenu de la notification) ; (3) via **Gmail**, pour l'envoi de certains emails transactionnels (code de vérification d'adresse, notification de secours par email) à tout utilisateur ayant confirmé une adresse email, que vous utilisiez ou non « Se connecter avec Google ». Dans chaque cas, Google traite ces données conformément à sa propre politique de confidentialité.
+- **Cloudflare**, qui héberge les fichiers audio de lecture à voix haute des questions : le téléchargement de ces fichiers est anonyme et ne transmet aucune donnée de compte, mais votre adresse IP est visible par ce prestataire lors du téléchargement.
 
 ## 5. Durée de conservation
 
