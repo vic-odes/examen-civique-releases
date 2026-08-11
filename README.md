@@ -8,6 +8,10 @@ Le code source de l'application se trouve dans le dépôt privé ci-dessus.
 
 Voir la [page des releases](../../releases) pour télécharger la dernière version de l'apk, puis installez-le sur votre appareil Android (autorisez l'installation depuis des sources inconnues).
 
+## Documentation
+
+- [Guide des fonctionnalités](https://vic-odes.github.io/examen-civique-releases/fonctionnalites.html)
+
 ## Documents légaux
 
 - [Politique de confidentialité](https://vic-odes.github.io/examen-civique-releases/privacy.html)
