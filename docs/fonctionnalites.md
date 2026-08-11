@@ -4,7 +4,7 @@ title: Fonctionnalités — Examen Civique
 
 # Guide des fonctionnalités
 
-**Dernière mise à jour : 9 août 2026**
+**Dernière mise à jour : 11 août 2026**
 
 > **Application non officielle.** Examen Civique est éditée par un particulier. Elle n'est ni produite, ni approuvée, ni affiliée au ministère de l'Intérieur ou à une quelconque administration française, et son contenu n'engage pas l'État. Elle ne garantit pas la réussite à l'examen officiel et ne remplace pas la formation civique obligatoire.
 
@@ -107,7 +107,7 @@ Des cartes à retourner pour mémoriser rapidement les repères clés : dates, s
 
 Une information courte, extraite d'une fiche de cours, renouvelée chaque jour. L'application choisit en priorité un thème où votre score est le plus faible.
 
-Sur Android, vous pouvez ajouter un **widget** à votre écran d'accueil pour voir l'astuce sans ouvrir l'application.
+L'astuce s'affiche dans un **widget** que vous pouvez ajouter à votre écran d'accueil Android : elle est ainsi lisible sans ouvrir l'application, et la toucher ouvre directement la fiche de cours dont elle est tirée. Le widget se met à jour à chaque fois que vous ouvrez l'application, et périodiquement le reste du temps.
 
 ---
 
@@ -122,7 +122,8 @@ L'écran d'accueil rassemble :
 - **Votre score moyen** sur tous vos examens blancs
 - **Votre dernier résultat**, réussi ou non
 - Le nombre d'**erreurs à revoir** et de **questions en favori**
-- Vos **thèmes à renforcer**, avec un accès direct à la révision
+- Vos **thèmes à renforcer** : touchez-en un pour ouvrir sa fiche et lancer directement sa révision
+- Un accès à l'**historique** de vos sessions terminées
 
 ### Le bilan par thème
 
@@ -130,7 +131,9 @@ Pour chacun des cinq thèmes : votre pourcentage de réussite, le nombre de ques
 
 ### L'historique
 
-La liste de vos examens blancs et séries terminés, avec pour chacun le mode, le score, la date et le temps passé. Vous pouvez rouvrir n'importe quel résultat pour revoir les questions et vos réponses.
+Accessible depuis la carte **Historique** de l'écran d'accueil : la liste de vos examens blancs et séries terminés, du plus récent au plus ancien, avec pour chacun le mode, la date, le score et — pour les examens blancs — la mention réussi ou échec.
+
+Touchez une ligne pour rouvrir son résultat complet : le score par thème, le temps passé, et vos erreurs avec la possibilité de les refaire.
 
 ### Les favoris
 
